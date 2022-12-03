@@ -60,27 +60,9 @@ To run ETL pipeline that cleans data and stores in database python data/process_
 To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
 Run the following command in the app's directory to run your web app. python run.py
 
-Go to http://0.0.0.0:3000/# File Descriptions
-app
-
-|- template  
-| |- master.html # main page of web app  
-| |- go.html # classification result page of web app  
-|- run.py # Flask file that runs app
-
-data
-
-|- disaster_categories.csv # data to process  
-|- disaster_messages.csv # data to process  
-|- process_data.py # data cleaning pipeline  
+Go to http://0.0.0.0:3000/
 
 
-models
-
-|- train_classifier.py # machine learning pipeline  
-|- classifier.pkl # saved model
-
-README.md
 ## Licensing, Authors, Acknowledgements, etc.
 Data source:  Figure Eight.
 
